@@ -1,149 +1,148 @@
 {
-    "AnatomyCourse": {
-      "Chapters": [
-        {
-          "ChapterTitle": "Introduction to Anatomy and Physiology",
-          "Subtopics": [
-            "Definition of anatomy and physiology",
-            "Levels of organization in the body",
-            "Anatomical terminology",
-            "Homeostasis and feedback mechanisms",
-            "Planes of the body and directional terms",
-            "Body cavities and membranes"
-          ]
-        },
-        {
-          "ChapterTitle": "Cells and Tissues",
-          "Subtopics": [
-            "Cell structure and function",
-            "Cellular transport mechanisms",
-            "Tissues of the body (epithelial, connective, muscle, nervous)",
-            "Tissue repair and regeneration"
-          ]
-        },
-        {
-          "ChapterTitle": "The Integumentary System",
-          "Subtopics": [
-            "Skin structure and function",
-            "Layers of the skin: epidermis, dermis, and hypodermis",
-            "Skin appendages (hair, nails, glands)",
-            "Skin disorders and diseases"
-          ]
-        },
-        {
-          "ChapterTitle": "The Skeletal System",
-          "Subtopics": [
-            "Bone structure and function",
-            "Bone development and growth (ossification)",
-            "Classification of bones",
-            "The axial skeleton (skull, vertebrae, ribs)",
-            "The appendicular skeleton (limbs and girdles)",
-            "Joints: types and movements",
-            "Disorders of the skeletal system"
-          ]
-        },
-        {
-          "ChapterTitle": "The Muscular System",
-          "Subtopics": [
-            "Types of muscle tissue (skeletal, smooth, cardiac)",
-            "Muscle structure and contraction (sarcomere, sliding filament theory)",
-            "Muscular system organization: major muscles of the body",
-            "Muscle metabolism and energy",
-            "Disorders of the muscular system"
-          ]
-        },
-        {
-          "ChapterTitle": "The Nervous System",
-          "Subtopics": [
-            "Neuron structure and function",
-            "Central nervous system (brain and spinal cord)",
-            "Peripheral nervous system (nerves and ganglia)",
-            "Autonomic nervous system (sympathetic and parasympathetic)",
-            "Reflexes and sensory processing",
-            "Neurological disorders"
-          ]
-        },
-        {
-          "ChapterTitle": "The Endocrine System",
-          "Subtopics": [
-            "Overview of hormones and their functions",
-            "Major endocrine glands (pituitary, thyroid, adrenal, pancreas)",
-            "Hormonal regulation and feedback mechanisms",
-            "Disorders of the endocrine system"
-          ]
-        },
-        {
-          "ChapterTitle": "The Cardiovascular System",
-          "Subtopics": [
-            "Anatomy of the heart",
-            "Blood vessels and circulation",
-            "Blood composition and functions",
-            "The cardiac cycle and heart regulation",
-            "Blood pressure and vascular resistance",
-            "Cardiovascular disorders"
-          ]
-        },
-        {
-          "ChapterTitle": "The Lymphatic System and Immunity",
-          "Subtopics": [
-            "Lymphatic system structure and function",
-            "Lymphoid organs (lymph nodes, spleen, thymus)",
-            "Innate and adaptive immunity",
-            "Immune cells and responses",
-            "Disorders of the immune system"
-          ]
-        },
-        {
-          "ChapterTitle": "The Respiratory System",
-          "Subtopics": [
-            "Anatomy of the respiratory tract",
-            "Mechanics of breathing",
-            "Gas exchange and transport",
-            "Regulation of respiration",
-            "Respiratory disorders"
-          ]
-        },
-        {
-          "ChapterTitle": "The Digestive System",
-          "Subtopics": [
-            "Anatomy of the digestive tract",
-            "Digestion and absorption processes",
-            "Accessory digestive organs (liver, pancreas, gallbladder)",
-            "Metabolism and energy production",
-            "Disorders of the digestive system"
-          ]
-        },
-        {
-          "ChapterTitle": "The Urinary System",
-          "Subtopics": [
-            "Anatomy of the kidneys and urinary tract",
-            "Filtration, reabsorption, and secretion",
-            "Urine formation and excretion",
-            "Fluid, electrolyte, and acid-base balance",
-            "Disorders of the urinary system"
-          ]
-        },
-        {
-          "ChapterTitle": "The Reproductive System",
-          "Subtopics": [
-            "Male reproductive anatomy and function",
-            "Female reproductive anatomy and function",
-            "Gametogenesis (spermatogenesis and oogenesis)",
-            "Hormonal regulation of reproduction",
-            "Fertilization, pregnancy, and childbirth",
-            "Reproductive disorders"
-          ]
-        },
-        {
-          "ChapterTitle": "The Special Senses",
-          "Subtopics": [
-            "Vision: eye anatomy and visual processing",
-            "Hearing: ear anatomy and auditory processing",
-            "Taste and smell",
-            "Disorders of the special senses"
-          ]
-        }
-      ]
-    }
+  "AnatomyCourse": {
+    "Chapters": [
+      {
+        "ChapterTitle": "Introduction to Anatomy and Physiology",
+        "Subtopics": [
+          "Definition of anatomy and physiology",
+          "Levels of organization in the body",
+          "Anatomical terminology",
+          "Homeostasis and feedback mechanisms",
+          "Planes of the body and directional terms",
+          "Body cavities and membranes"
+        ]
+      },
+      {
+        "ChapterTitle": "Cells and Tissues",
+        "Subtopics": [
+          "Cell structure and function",
+          "Cellular transport mechanisms",
+          "Tissues of the body (epithelial, connective, muscle, nervous)",
+          "Tissue repair and regeneration"
+        ]
+      },
+      {
+        "ChapterTitle": "The Integumentary System",
+        "Subtopics": [
+          "Skin structure and function",
+          "Layers of the skin: epidermis, dermis, and hypodermis",
+          "Skin appendages (hair, nails, glands)",
+          "Skin disorders and diseases"
+        ]
+      },
+      {
+        "ChapterTitle": "The Skeletal System",
+        "Subtopics": [
+          "Bone structure and function",
+          "Bone development and growth (ossification)",
+          "Classification of bones",
+          "The axial skeleton (skull, vertebrae, ribs)",
+          "The appendicular skeleton (limbs and girdles)",
+          "Joints: types and movements",
+          "Disorders of the skeletal system"
+        ]
+      },
+      {
+        "ChapterTitle": "The Muscular System",
+        "Subtopics": [
+          "Types of muscle tissue (skeletal, smooth, cardiac)",
+          "Muscle structure and contraction (sarcomere, sliding filament theory)",
+          "Muscular system organization: major muscles of the body",
+          "Muscle metabolism and energy",
+          "Disorders of the muscular system"
+        ]
+      },
+      {
+        "ChapterTitle": "The Nervous System",
+        "Subtopics": [
+          "Neuron structure and function",
+          "Central nervous system (brain and spinal cord)",
+          "Peripheral nervous system (nerves and ganglia)",
+          "Autonomic nervous system (sympathetic and parasympathetic)",
+          "Reflexes and sensory processing",
+          "Neurological disorders"
+        ]
+      },
+      {
+        "ChapterTitle": "The Endocrine System",
+        "Subtopics": [
+          "Overview of hormones and their functions",
+          "Major endocrine glands (pituitary, thyroid, adrenal, pancreas)",
+          "Hormonal regulation and feedback mechanisms",
+          "Disorders of the endocrine system"
+        ]
+      },
+      {
+        "ChapterTitle": "The Cardiovascular System",
+        "Subtopics": [
+          "Anatomy of the heart",
+          "Blood vessels and circulation",
+          "Blood composition and functions",
+          "The cardiac cycle and heart regulation",
+          "Blood pressure and vascular resistance",
+          "Cardiovascular disorders"
+        ]
+      },
+      {
+        "ChapterTitle": "The Lymphatic System and Immunity",
+        "Subtopics": [
+          "Lymphatic system structure and function",
+          "Lymphoid organs (lymph nodes, spleen, thymus)",
+          "Innate and adaptive immunity",
+          "Immune cells and responses",
+          "Disorders of the immune system"
+        ]
+      },
+      {
+        "ChapterTitle": "The Respiratory System",
+        "Subtopics": [
+          "Anatomy of the respiratory tract",
+          "Mechanics of breathing",
+          "Gas exchange and transport",
+          "Regulation of respiration",
+          "Respiratory disorders"
+        ]
+      },
+      {
+        "ChapterTitle": "The Digestive System",
+        "Subtopics": [
+          "Anatomy of the digestive tract",
+          "Digestion and absorption processes",
+          "Accessory digestive organs (liver, pancreas, gallbladder)",
+          "Metabolism and energy production",
+          "Disorders of the digestive system"
+        ]
+      },
+      {
+        "ChapterTitle": "The Urinary System",
+        "Subtopics": [
+          "Anatomy of the kidneys and urinary tract",
+          "Filtration, reabsorption, and secretion",
+          "Urine formation and excretion",
+          "Fluid, electrolyte, and acid-base balance",
+          "Disorders of the urinary system"
+        ]
+      },
+      {
+        "ChapterTitle": "The Reproductive System",
+        "Subtopics": [
+          "Male reproductive anatomy and function",
+          "Female reproductive anatomy and function",
+          "Gametogenesis (spermatogenesis and oogenesis)",
+          "Hormonal regulation of reproduction",
+          "Fertilization, pregnancy, and childbirth",
+          "Reproductive disorders"
+        ]
+      },
+      {
+        "ChapterTitle": "The Special Senses",
+        "Subtopics": [
+          "Vision: eye anatomy and visual processing",
+          "Hearing: ear anatomy and auditory processing",
+          "Taste and smell",
+          "Disorders of the special senses"
+        ]
+      }
+    ]
   }
-  
+}
