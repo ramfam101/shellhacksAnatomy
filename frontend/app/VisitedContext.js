@@ -6,6 +6,7 @@ const VisitedContext = createContext();
 // Custom hook to use the context easily
 export const useVisited = () => useContext(VisitedContext);
 
+
 // Provider component to wrap your app
 export const VisitedProvider = ({ children }) => {
   
@@ -112,6 +113,24 @@ export const VisitedProvider = ({ children }) => {
   const isChapterCompleted = (chapter) => {
     const chapterData = visitedSubtopics[chapter];
     return chapterData && chapterData.visited.length === chapterData.total;
+  };
+
+  const markQuizCompleted = (chapter) => {
+    setVisitedSubtopics((prevState) => {
+      const chapterData = prevState[chapter];
+  
+      // If chapter exists, mark all subtopics as visited
+      if (chapterData && chapterData.visited.length !== chapterData.total) {
+        return {
+          ...prevState,
+          [chapter]: {
+            ...chapterData,
+            visited: Array.from({ length: chapterData.total }, (_, i) => `Subtopic ${i + 1}`), // Assuming subtopic names follow this pattern
+          },
+        };
+      }
+      return prevState;
+    });
   };
 
   return (

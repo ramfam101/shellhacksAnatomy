@@ -3,7 +3,9 @@ import React, { createContext, useState, useContext, ReactNode } from "react";
 // Define the types for the result data
 interface Result {
   questionId: string;
+  questionw: string;
   correct: boolean;
+  chapter: string;
 }
 
 // Define the shape of the context
