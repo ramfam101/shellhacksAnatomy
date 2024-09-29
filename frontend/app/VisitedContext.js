@@ -8,6 +8,7 @@ export const useVisited = () => useContext(VisitedContext);
 
 // Provider component to wrap your app
 export const VisitedProvider = ({ children }) => {
+  
   // Initialize visited state for each chapter's subtopics based on your data structure
   const initialVisitedState = {
     "Introduction to Anatomy and Physiology": {
@@ -66,6 +67,7 @@ export const VisitedProvider = ({ children }) => {
       visited: [],
       total: 4,
     },
+
   };
 
   const [visitedSubtopics, setVisitedSubtopics] = useState(initialVisitedState);
@@ -101,6 +103,10 @@ export const VisitedProvider = ({ children }) => {
     }
     return 0;
   };
+  const isSubtopicVisited = (chapter, subtopic) => {
+    const chapterData = visitedSubtopics[chapter];
+    return chapterData ? chapterData.visited.includes(subtopic) : false;
+  };
 
   // Function to check if all subtopics of a chapter have been visited
   const isChapterCompleted = (chapter) => {
@@ -115,6 +121,7 @@ export const VisitedProvider = ({ children }) => {
         markSubtopicVisited,
         getChapterProgress,
         isChapterCompleted,
+        isSubtopicVisited,
       }}
     >
       {children}

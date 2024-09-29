@@ -8,6 +8,7 @@ import { ProgressProvider } from './ProgressContext';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { VisitedProvider } from './VisitedContext';
+import { QuizResultProvider } from './QuizContext';
 
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -30,6 +31,7 @@ export default function RootLayout() {
   }
 
   return (
+    <QuizResultProvider>
     <VisitedProvider>
       <ProgressProvider>
         <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
@@ -43,5 +45,6 @@ export default function RootLayout() {
         </ThemeProvider>
       </ProgressProvider>
     </VisitedProvider>
+    </QuizResultProvider>
   );
 }

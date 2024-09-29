@@ -1,0 +1,1729 @@
+[
+    {
+      "chapter": "Introduction to Anatomy and Physiology",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the study of the structure of the body called?",
+          "options": [
+            { "id": "a1", "text": "Physiology" },
+            { "id": "a2", "text": "Biology" },
+            { "id": "a3", "text": "Anatomy" },
+            { "id": "a4", "text": "Pathology" }
+          ],
+          "correct": "a3"
+        },
+        {
+          "id": "q2",
+          "question": "Which of the following is NOT one of the levels of organization in the body?",
+          "options": [
+            { "id": "a1", "text": "Chemical" },
+            { "id": "a2", "text": "Cellular" },
+            { "id": "a3", "text": "Ecosystem" },
+            { "id": "a4", "text": "Tissue" }
+          ],
+          "correct": "a3"
+        },
+        {
+          "id": "q3",
+          "question": "Which term refers to the standard reference position of the body?",
+          "options": [
+            { "id": "a1", "text": "Prone" },
+            { "id": "a2", "text": "Supine" },
+            { "id": "a3", "text": "Anatomical position" },
+            { "id": "a4", "text": "Lateral" }
+          ],
+          "correct": "a3"
+        },
+        {
+          "id": "q4",
+          "question": "Homeostasis refers to:",
+          "options": [
+            { "id": "a1", "text": "The ability of the body to maintain a stable internal environment" },
+            { "id": "a2", "text": "The growth of tissues and organs" },
+            { "id": "a3", "text": "The breakdown of food" },
+            { "id": "a4", "text": "The process of producing energy in cells" }
+          ],
+          "correct": "a1"
+        },
+        {
+          "id": "q5",
+          "question": "Which of the following is an example of a positive feedback mechanism?",
+          "options": [
+            { "id": "a1", "text": "Body temperature regulation" },
+            { "id": "a2", "text": "Blood clotting" },
+            { "id": "a3", "text": "Blood sugar regulation" },
+            { "id": "a4", "text": "Oxygen regulation" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q6",
+          "question": "Which body plane divides the body into right and left parts?",
+          "options": [
+            { "id": "a1", "text": "Frontal plane" },
+            { "id": "a2", "text": "Sagittal plane" },
+            { "id": "a3", "text": "Transverse plane" },
+            { "id": "a4", "text": "Oblique plane" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q7",
+          "question": "The diaphragm separates which two body cavities?",
+          "options": [
+            { "id": "a1", "text": "Cranial and vertebral" },
+            { "id": "a2", "text": "Thoracic and abdominal" },
+            { "id": "a3", "text": "Abdominal and pelvic" },
+            { "id": "a4", "text": "Thoracic and pelvic" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q8",
+          "question": "Which of the following is a directional term that means 'toward the front'?",
+          "options": [
+            { "id": "a1", "text": "Posterior" },
+            { "id": "a2", "text": "Anterior" },
+            { "id": "a3", "text": "Superior" },
+            { "id": "a4", "text": "Distal" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q9",
+          "question": "Which body cavity contains the brain?",
+          "options": [
+            { "id": "a1", "text": "Thoracic cavity" },
+            { "id": "a2", "text": "Cranial cavity" },
+            { "id": "a3", "text": "Abdominal cavity" },
+            { "id": "a4", "text": "Pelvic cavity" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q10",
+          "question": "Which of the following membranes lines body cavities that are closed to the exterior?",
+          "options": [
+            { "id": "a1", "text": "Mucous membranes" },
+            { "id": "a2", "text": "Serous membranes" },
+            { "id": "a3", "text": "Synovial membranes" },
+            { "id": "a4", "text": "Cutaneous membranes" }
+          ],
+          "correct": "a2"
+        }
+      ]
+    },
+    {
+      "chapter": "Cells and Tissues",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which organelle is known as the 'powerhouse' of the cell?",
+          "options": [
+            { "id": "a1", "text": "Nucleus" },
+            { "id": "a2", "text": "Mitochondria" },
+            { "id": "a3", "text": "Golgi apparatus" },
+            { "id": "a4", "text": "Endoplasmic reticulum" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q2",
+          "question": "Which process involves the movement of water across a selectively permeable membrane?",
+          "options": [
+            { "id": "a1", "text": "Osmosis" },
+            { "id": "a2", "text": "Diffusion" },
+            { "id": "a3", "text": "Active transport" },
+            { "id": "a4", "text": "Endocytosis" }
+          ],
+          "correct": "a1"
+        },
+        {
+          "id": "q3",
+          "question": "What type of tissue is responsible for covering surfaces and lining cavities?",
+          "options": [
+            { "id": "a1", "text": "Epithelial tissue" },
+            { "id": "a2", "text": "Connective tissue" },
+            { "id": "a3", "text": "Muscle tissue" },
+            { "id": "a4", "text": "Nervous tissue" }
+          ],
+          "correct": "a1"
+        },
+        {
+          "id": "q4",
+          "question": "Which type of connective tissue stores fat?",
+          "options": [
+            { "id": "a1", "text": "Cartilage" },
+            { "id": "a2", "text": "Bone" },
+            { "id": "a3", "text": "Adipose tissue" },
+            { "id": "a4", "text": "Dense connective tissue" }
+          ],
+          "correct": "a3"
+        },
+        {
+          "id": "q5",
+          "question": "Which type of muscle tissue is under voluntary control?",
+          "options": [
+            { "id": "a1", "text": "Cardiac muscle" },
+            { "id": "a2", "text": "Skeletal muscle" },
+            { "id": "a3", "text": "Smooth muscle" },
+            { "id": "a4", "text": "Both cardiac and smooth muscle" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q6",
+          "question": "Which type of tissue is responsible for transmitting electrical impulses throughout the body?",
+          "options": [
+            { "id": "a1", "text": "Epithelial tissue" },
+            { "id": "a2", "text": "Muscle tissue" },
+            { "id": "a3", "text": "Connective tissue" },
+            { "id": "a4", "text": "Nervous tissue" }
+          ],
+          "correct": "a4"
+        },
+        {
+          "id": "q7",
+          "question": "Which process involves the passive transport of molecules from an area of high concentration to low concentration?",
+          "options": [
+            { "id": "a1", "text": "Facilitated diffusion" },
+            { "id": "a2", "text": "Osmosis" },
+            { "id": "a3", "text": "Active transport" },
+            { "id": "a4", "text": "Diffusion" }
+          ],
+          "correct": "a4"
+        },
+        {
+          "id": "q8",
+          "question": "Which type of tissue forms the framework for organs such as the spleen and lymph nodes?",
+          "options": [
+            { "id": "a1", "text": "Epithelial" },
+            { "id": "a2", "text": "Connective" },
+            { "id": "a3", "text": "Muscle" },
+            { "id": "a4", "text": "Nervous" }
+          ],
+          "correct": "a2"
+        },
+        {
+          "id": "q9",
+          "question": "Which cellular organelle is responsible for packaging and modifying proteins?",
+          "options": [
+            { "id": "a1", "text": "Golgi apparatus" },
+            { "id": "a2", "text": "Mitochondria" },
+            { "id": "a3", "text": "Ribosomes" },
+            { "id": "a4", "text": "Endoplasmic reticulum" }
+          ],
+          "correct": "a1"
+        },
+        {
+          "id": "q10",
+          "question": "Which type of tissue repair occurs when damaged tissue is replaced by the same type of tissue?",
+          "options": [
+            { "id": "a1", "text": "Regeneration" },
+            { "id": "a2", "text": "Fibrosis" },
+            { "id": "a3", "text": "Inflammation" },
+            { "id": "a4", "text": "Degeneration" }
+          ],
+          "correct": "a1"
+        }
+      ]
+    },
+    {
+        "chapter": "The Integumentary System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which layer of the skin is primarily responsible for providing a barrier to infection and regulating water loss?",
+            "options": [
+              { "id": "a1", "text": "Epidermis" },
+              { "id": "a2", "text": "Dermis" },
+              { "id": "a3", "text": "Hypodermis" },
+              { "id": "a4", "text": "Stratum lucidum" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q2",
+            "question": "Which protein is found in the skin and helps to protect against water loss?",
+            "options": [
+              { "id": "a1", "text": "Collagen" },
+              { "id": "a2", "text": "Keratin" },
+              { "id": "a3", "text": "Elastin" },
+              { "id": "a4", "text": "Melanin" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "Which of the following is NOT a layer of the skin?",
+            "options": [
+              { "id": "a1", "text": "Epidermis" },
+              { "id": "a2", "text": "Dermis" },
+              { "id": "a3", "text": "Hypodermis" },
+              { "id": "a4", "text": "Endodermis" }
+            ],
+            "correct": "a4"
+          },
+          {
+            "id": "q4",
+            "question": "Which structure in the skin is responsible for producing hair?",
+            "options": [
+              { "id": "a1", "text": "Sebaceous gland" },
+              { "id": "a2", "text": "Hair follicle" },
+              { "id": "a3", "text": "Sweat gland" },
+              { "id": "a4", "text": "Arrector pili muscle" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q5",
+            "question": "Which gland is responsible for secreting oil onto the skin and hair?",
+            "options": [
+              { "id": "a1", "text": "Sweat gland" },
+              { "id": "a2", "text": "Sebaceous gland" },
+              { "id": "a3", "text": "Apocrine gland" },
+              { "id": "a4", "text": "Ceruminous gland" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q6",
+            "question": "Which layer of the skin contains blood vessels and nerves?",
+            "options": [
+              { "id": "a1", "text": "Epidermis" },
+              { "id": "a2", "text": "Dermis" },
+              { "id": "a3", "text": "Hypodermis" },
+              { "id": "a4", "text": "Stratum corneum" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q7",
+            "question": "Which pigment is primarily responsible for skin color?",
+            "options": [
+              { "id": "a1", "text": "Carotene" },
+              { "id": "a2", "text": "Melanin" },
+              { "id": "a3", "text": "Hemoglobin" },
+              { "id": "a4", "text": "Collagen" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which layer of the skin contains dead cells filled with keratin?",
+            "options": [
+              { "id": "a1", "text": "Stratum basale" },
+              { "id": "a2", "text": "Stratum corneum" },
+              { "id": "a3", "text": "Stratum spinosum" },
+              { "id": "a4", "text": "Stratum granulosum" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "Which skin disorder is characterized by the overproduction of sebum leading to clogged pores?",
+            "options": [
+              { "id": "a1", "text": "Psoriasis" },
+              { "id": "a2", "text": "Eczema" },
+              { "id": "a3", "text": "Acne" },
+              { "id": "a4", "text": "Melanoma" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q10",
+            "question": "Which of the following skin disorders is a type of cancer?",
+            "options": [
+              { "id": "a1", "text": "Melanoma" },
+              { "id": "a2", "text": "Psoriasis" },
+              { "id": "a3", "text": "Acne" },
+              { "id": "a4", "text": "Eczema" }
+            ],
+            "correct": "a1"
+          }
+        ]
+      },
+      {
+        "chapter": "The Skeletal System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which of the following is a function of the skeletal system?",
+            "options": [
+              { "id": "a1", "text": "Hormone production" },
+              { "id": "a2", "text": "Blood cell production" },
+              { "id": "a3", "text": "Nerve impulse transmission" },
+              { "id": "a4", "text": "Metabolism regulation" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "What is the process by which bone forms called?",
+            "options": [
+              { "id": "a1", "text": "Ossification" },
+              { "id": "a2", "text": "Calcification" },
+              { "id": "a3", "text": "Remodeling" },
+              { "id": "a4", "text": "Fracture repair" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q3",
+            "question": "Which type of bone is found in the limbs and provides support?",
+            "options": [
+              { "id": "a1", "text": "Flat bones" },
+              { "id": "a2", "text": "Long bones" },
+              { "id": "a3", "text": "Irregular bones" },
+              { "id": "a4", "text": "Short bones" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q4",
+            "question": "What part of the skeletal system contains the skull, vertebrae, and ribs?",
+            "options": [
+              { "id": "a1", "text": "Appendicular skeleton" },
+              { "id": "a2", "text": "Axial skeleton" },
+              { "id": "a3", "text": "Pelvic girdle" },
+              { "id": "a4", "text": "Pectoral girdle" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q5",
+            "question": "Which type of joint allows for the greatest range of movement?",
+            "options": [
+              { "id": "a1", "text": "Ball-and-socket joint" },
+              { "id": "a2", "text": "Hinge joint" },
+              { "id": "a3", "text": "Pivot joint" },
+              { "id": "a4", "text": "Saddle joint" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q6",
+            "question": "What is the term for the soft, flexible tissue found in the cavities of bones that produces blood cells?",
+            "options": [
+              { "id": "a1", "text": "Cartilage" },
+              { "id": "a2", "text": "Periosteum" },
+              { "id": "a3", "text": "Bone marrow" },
+              { "id": "a4", "text": "Spongy bone" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q7",
+            "question": "Which bone is part of the appendicular skeleton?",
+            "options": [
+              { "id": "a1", "text": "Sternum" },
+              { "id": "a2", "text": "Femur" },
+              { "id": "a3", "text": "Rib" },
+              { "id": "a4", "text": "Vertebra" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which type of joint connects the bones of the skull?",
+            "options": [
+              { "id": "a1", "text": "Hinge joint" },
+              { "id": "a2", "text": "Fibrous joint" },
+              { "id": "a3", "text": "Ball-and-socket joint" },
+              { "id": "a4", "text": "Cartilaginous joint" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "Which disorder is characterized by a reduction in bone mass, increasing the risk of fractures?",
+            "options": [
+              { "id": "a1", "text": "Osteoporosis" },
+              { "id": "a2", "text": "Arthritis" },
+              { "id": "a3", "text": "Scoliosis" },
+              { "id": "a4", "text": "Rickets" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q10",
+            "question": "Which bone disease is caused by a deficiency of vitamin D, leading to soft and weak bones?",
+            "options": [
+              { "id": "a1", "text": "Osteoporosis" },
+              { "id": "a2", "text": "Osteoarthritis" },
+              { "id": "a3", "text": "Rickets" },
+              { "id": "a4", "text": "Bursitis" }
+            ],
+            "correct": "a3"
+          }
+        ]
+      },
+      {
+        "chapter": "The Muscular System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which type of muscle is under voluntary control?",
+            "options": [
+              { "id": "a1", "text": "Cardiac muscle" },
+              { "id": "a2", "text": "Smooth muscle" },
+              { "id": "a3", "text": "Skeletal muscle" },
+              { "id": "a4", "text": "Involuntary muscle" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q2",
+            "question": "What is the basic functional unit of a skeletal muscle fiber responsible for contraction?",
+            "options": [
+              { "id": "a1", "text": "Sarcomere" },
+              { "id": "a2", "text": "Myofibril" },
+              { "id": "a3", "text": "Sarcoplasm" },
+              { "id": "a4", "text": "Tendon" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q3",
+            "question": "Which of the following is NOT a type of muscle tissue?",
+            "options": [
+              { "id": "a1", "text": "Skeletal muscle" },
+              { "id": "a2", "text": "Cardiac muscle" },
+              { "id": "a3", "text": "Smooth muscle" },
+              { "id": "a4", "text": "Epithelial muscle" }
+            ],
+            "correct": "a4"
+          },
+          {
+            "id": "q4",
+            "question": "Which theory explains the process of muscle contraction?",
+            "options": [
+              { "id": "a1", "text": "Sliding filament theory" },
+              { "id": "a2", "text": "Cross-bridge theory" },
+              { "id": "a3", "text": "Action potential theory" },
+              { "id": "a4", "text": "Tropomyosin theory" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q5",
+            "question": "Which energy molecule is required for muscle contraction?",
+            "options": [
+              { "id": "a1", "text": "ADP" },
+              { "id": "a2", "text": "NADH" },
+              { "id": "a3", "text": "ATP" },
+              { "id": "a4", "text": "GTP" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q6",
+            "question": "Which major muscle is responsible for flexing the arm at the elbow?",
+            "options": [
+              { "id": "a1", "text": "Biceps brachii" },
+              { "id": "a2", "text": "Triceps brachii" },
+              { "id": "a3", "text": "Deltoid" },
+              { "id": "a4", "text": "Pectoralis major" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q7",
+            "question": "What is the term for the type of muscle contraction where the muscle length changes while the tension remains constant?",
+            "options": [
+              { "id": "a1", "text": "Isometric contraction" },
+              { "id": "a2", "text": "Isotonic contraction" },
+              { "id": "a3", "text": "Eccentric contraction" },
+              { "id": "a4", "text": "Concentric contraction" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which muscle disorder is characterized by progressive weakening and degeneration of muscle fibers?",
+            "options": [
+              { "id": "a1", "text": "Muscular dystrophy" },
+              { "id": "a2", "text": "Myasthenia gravis" },
+              { "id": "a3", "text": "Tetanus" },
+              { "id": "a4", "text": "Fibromyalgia" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q9",
+            "question": "Which muscle is responsible for the movement of the head and neck?",
+            "options": [
+              { "id": "a1", "text": "Trapezius" },
+              { "id": "a2", "text": "Latissimus dorsi" },
+              { "id": "a3", "text": "Sternocleidomastoid" },
+              { "id": "a4", "text": "Deltoid" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q10",
+            "question": "Which process provides the majority of ATP during prolonged exercise?",
+            "options": [
+              { "id": "a1", "text": "Anaerobic respiration" },
+              { "id": "a2", "text": "Aerobic respiration" },
+              { "id": "a3", "text": "Glycolysis" },
+              { "id": "a4", "text": "Lactic acid fermentation" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Nervous System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the primary function of neurons?",
+            "options": [
+              { "id": "a1", "text": "Transport nutrients" },
+              { "id": "a2", "text": "Transmit electrical impulses" },
+              { "id": "a3", "text": "Secrete hormones" },
+              { "id": "a4", "text": "Store energy" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "Which part of the neuron receives signals from other neurons?",
+            "options": [
+              { "id": "a1", "text": "Axon" },
+              { "id": "a2", "text": "Dendrites" },
+              { "id": "a3", "text": "Myelin sheath" },
+              { "id": "a4", "text": "Cell body" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "Which structure is part of the central nervous system?",
+            "options": [
+              { "id": "a1", "text": "Brain" },
+              { "id": "a2", "text": "Peripheral nerves" },
+              { "id": "a3", "text": "Ganglia" },
+              { "id": "a4", "text": "Sympathetic trunk" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q4",
+            "question": "Which system is responsible for the 'fight or flight' response?",
+            "options": [
+              { "id": "a1", "text": "Parasympathetic nervous system" },
+              { "id": "a2", "text": "Sympathetic nervous system" },
+              { "id": "a3", "text": "Somatic nervous system" },
+              { "id": "a4", "text": "Central nervous system" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q5",
+            "question": "What is the gap between two communicating neurons called?",
+            "options": [
+              { "id": "a1", "text": "Axon hillock" },
+              { "id": "a2", "text": "Synapse" },
+              { "id": "a3", "text": "Dendritic spine" },
+              { "id": "a4", "text": "Neuroglia" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q6",
+            "question": "Which part of the brain controls balance and coordination?",
+            "options": [
+              { "id": "a1", "text": "Cerebrum" },
+              { "id": "a2", "text": "Cerebellum" },
+              { "id": "a3", "text": "Medulla oblongata" },
+              { "id": "a4", "text": "Thalamus" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q7",
+            "question": "What type of neuron transmits signals from the central nervous system to muscles?",
+            "options": [
+              { "id": "a1", "text": "Sensory neuron" },
+              { "id": "a2", "text": "Motor neuron" },
+              { "id": "a3", "text": "Interneuron" },
+              { "id": "a4", "text": "Neuroglia" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "What protective covering surrounds the axon of a neuron to increase signal speed?",
+            "options": [
+              { "id": "a1", "text": "Synaptic cleft" },
+              { "id": "a2", "text": "Myelin sheath" },
+              { "id": "a3", "text": "Schwann cells" },
+              { "id": "a4", "text": "Nissl bodies" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "Which neurotransmitter is involved in muscle stimulation?",
+            "options": [
+              { "id": "a1", "text": "Acetylcholine" },
+              { "id": "a2", "text": "Dopamine" },
+              { "id": "a3", "text": "Serotonin" },
+              { "id": "a4", "text": "GABA" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q10",
+            "question": "Which disorder is caused by the degeneration of dopamine-producing neurons in the brain?",
+            "options": [
+              { "id": "a1", "text": "Alzheimer's disease" },
+              { "id": "a2", "text": "Parkinson's disease" },
+              { "id": "a3", "text": "Multiple sclerosis" },
+              { "id": "a4", "text": "Amyotrophic lateral sclerosis (ALS)" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Endocrine System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the primary function of the endocrine system?",
+            "options": [
+              { "id": "a1", "text": "To regulate metabolism and growth through hormones" },
+              { "id": "a2", "text": "To transport oxygen throughout the body" },
+              { "id": "a3", "text": "To remove waste products from the blood" },
+              { "id": "a4", "text": "To transmit electrical signals" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q2",
+            "question": "Which gland is known as the 'master gland' of the endocrine system?",
+            "options": [
+              { "id": "a1", "text": "Thyroid gland" },
+              { "id": "a2", "text": "Pituitary gland" },
+              { "id": "a3", "text": "Adrenal gland" },
+              { "id": "a4", "text": "Pancreas" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "Which hormone lowers blood sugar levels?",
+            "options": [
+              { "id": "a1", "text": "Glucagon" },
+              { "id": "a2", "text": "Insulin" },
+              { "id": "a3", "text": "Cortisol" },
+              { "id": "a4", "text": "Adrenaline" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q4",
+            "question": "Which endocrine gland is located on top of the kidneys?",
+            "options": [
+              { "id": "a1", "text": "Pituitary gland" },
+              { "id": "a2", "text": "Thyroid gland" },
+              { "id": "a3", "text": "Adrenal glands" },
+              { "id": "a4", "text": "Pancreas" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q5",
+            "question": "What hormone is released by the adrenal glands during stress?",
+            "options": [
+              { "id": "a1", "text": "Insulin" },
+              { "id": "a2", "text": "Cortisol" },
+              { "id": "a3", "text": "Thyroxine" },
+              { "id": "a4", "text": "Melatonin" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q6",
+            "question": "Which hormone is responsible for regulating the sleep-wake cycle?",
+            "options": [
+              { "id": "a1", "text": "Melatonin" },
+              { "id": "a2", "text": "Glucagon" },
+              { "id": "a3", "text": "Epinephrine" },
+              { "id": "a4", "text": "Testosterone" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q7",
+            "question": "Which gland regulates calcium levels in the blood?",
+            "options": [
+              { "id": "a1", "text": "Thyroid gland" },
+              { "id": "a2", "text": "Parathyroid glands" },
+              { "id": "a3", "text": "Adrenal glands" },
+              { "id": "a4", "text": "Pituitary gland" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "What disorder results from the underproduction of insulin?",
+            "options": [
+              { "id": "a1", "text": "Diabetes mellitus" },
+              { "id": "a2", "text": "Hypothyroidism" },
+              { "id": "a3", "text": "Cushing's syndrome" },
+              { "id": "a4", "text": "Addison's disease" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q9",
+            "question": "Which hormone is secreted by the thyroid gland to regulate metabolism?",
+            "options": [
+              { "id": "a1", "text": "Cortisol" },
+              { "id": "a2", "text": "Thyroxine (T4)" },
+              { "id": "a3", "text": "Testosterone" },
+              { "id": "a4", "text": "Aldosterone" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q10",
+            "question": "Which disorder is characterized by the overproduction of growth hormone in adulthood?",
+            "options": [
+              { "id": "a1", "text": "Gigantism" },
+              { "id": "a2", "text": "Acromegaly" },
+              { "id": "a3", "text": "Cushing's syndrome" },
+              { "id": "a4", "text": "Hyperthyroidism" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Cardiovascular System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which organ is the primary pump of the cardiovascular system?",
+            "options": [
+              { "id": "a1", "text": "Lungs" },
+              { "id": "a2", "text": "Heart" },
+              { "id": "a3", "text": "Brain" },
+              { "id": "a4", "text": "Kidneys" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "What are the blood vessels that carry blood away from the heart called?",
+            "options": [
+              { "id": "a1", "text": "Veins" },
+              { "id": "a2", "text": "Arteries" },
+              { "id": "a3", "text": "Capillaries" },
+              { "id": "a4", "text": "Venules" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "Which part of the heart is responsible for pumping oxygenated blood to the rest of the body?",
+            "options": [
+              { "id": "a1", "text": "Left atrium" },
+              { "id": "a2", "text": "Right atrium" },
+              { "id": "a3", "text": "Left ventricle" },
+              { "id": "a4", "text": "Right ventricle" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q4",
+            "question": "What is the liquid component of blood called?",
+            "options": [
+              { "id": "a1", "text": "Serum" },
+              { "id": "a2", "text": "Plasma" },
+              { "id": "a3", "text": "Hemoglobin" },
+              { "id": "a4", "text": "Platelets" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q5",
+            "question": "Which valve prevents the backflow of blood from the left ventricle to the left atrium?",
+            "options": [
+              { "id": "a1", "text": "Tricuspid valve" },
+              { "id": "a2", "text": "Pulmonary valve" },
+              { "id": "a3", "text": "Mitral valve" },
+              { "id": "a4", "text": "Aortic valve" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q6",
+            "question": "What is the average resting heart rate for a healthy adult?",
+            "options": [
+              { "id": "a1", "text": "40-60 beats per minute" },
+              { "id": "a2", "text": "60-100 beats per minute" },
+              { "id": "a3", "text": "100-120 beats per minute" },
+              { "id": "a4", "text": "120-150 beats per minute" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q7",
+            "question": "Which blood vessel type is responsible for the exchange of gases and nutrients at the cellular level?",
+            "options": [
+              { "id": "a1", "text": "Arteries" },
+              { "id": "a2", "text": "Veins" },
+              { "id": "a3", "text": "Capillaries" },
+              { "id": "a4", "text": "Arterioles" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q8",
+            "question": "Which blood component is primarily responsible for clotting?",
+            "options": [
+              { "id": "a1", "text": "Red blood cells" },
+              { "id": "a2", "text": "White blood cells" },
+              { "id": "a3", "text": "Platelets" },
+              { "id": "a4", "text": "Plasma" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q9",
+            "question": "What is the term for the force of blood against the walls of blood vessels?",
+            "options": [
+              { "id": "a1", "text": "Cardiac output" },
+              { "id": "a2", "text": "Blood pressure" },
+              { "id": "a3", "text": "Pulse rate" },
+              { "id": "a4", "text": "Stroke volume" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q10",
+            "question": "Which cardiovascular disorder is characterized by the buildup of plaque in the arteries?",
+            "options": [
+              { "id": "a1", "text": "Arrhythmia" },
+              { "id": "a2", "text": "Atherosclerosis" },
+              { "id": "a3", "text": "Myocarditis" },
+              { "id": "a4", "text": "Cardiomyopathy" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Lymphatic System and Immunity",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the primary function of the lymphatic system?",
+            "options": [
+              { "id": "a1", "text": "Oxygen transport" },
+              { "id": "a2", "text": "Absorption of fats and immune response" },
+              { "id": "a3", "text": "Hormone secretion" },
+              { "id": "a4", "text": "Blood pressure regulation" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "What are the small, bean-shaped structures that filter lymph and store immune cells?",
+            "options": [
+              { "id": "a1", "text": "Lymph nodes" },
+              { "id": "a2", "text": "Spleen" },
+              { "id": "a3", "text": "Thymus" },
+              { "id": "a4", "text": "Tonsils" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q3",
+            "question": "Which organ filters blood and helps fight infections by storing white blood cells?",
+            "options": [
+              { "id": "a1", "text": "Thymus" },
+              { "id": "a2", "text": "Liver" },
+              { "id": "a3", "text": "Spleen" },
+              { "id": "a4", "text": "Bone marrow" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q4",
+            "question": "Which immune response is considered the first line of defense?",
+            "options": [
+              { "id": "a1", "text": "Adaptive immunity" },
+              { "id": "a2", "text": "Innate immunity" },
+              { "id": "a3", "text": "Humoral immunity" },
+              { "id": "a4", "text": "Cell-mediated immunity" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q5",
+            "question": "Which type of immune cell is responsible for producing antibodies?",
+            "options": [
+              { "id": "a1", "text": "T cells" },
+              { "id": "a2", "text": "B cells" },
+              { "id": "a3", "text": "Macrophages" },
+              { "id": "a4", "text": "Neutrophils" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q6",
+            "question": "What is the fluid called that is transported through the lymphatic system?",
+            "options": [
+              { "id": "a1", "text": "Plasma" },
+              { "id": "a2", "text": "Serum" },
+              { "id": "a3", "text": "Lymph" },
+              { "id": "a4", "text": "Interstitial fluid" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q7",
+            "question": "Which of the following is part of the body's adaptive immune system?",
+            "options": [
+              { "id": "a1", "text": "Skin" },
+              { "id": "a2", "text": "T cells" },
+              { "id": "a3", "text": "Mucous membranes" },
+              { "id": "a4", "text": "Phagocytes" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which immune cells engulf and digest pathogens?",
+            "options": [
+              { "id": "a1", "text": "B cells" },
+              { "id": "a2", "text": "T cells" },
+              { "id": "a3", "text": "Phagocytes" },
+              { "id": "a4", "text": "Natural killer cells" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q9",
+            "question": "What is the function of the thymus gland in the immune system?",
+            "options": [
+              { "id": "a1", "text": "To filter blood" },
+              { "id": "a2", "text": "To produce T cells" },
+              { "id": "a3", "text": "To produce antibodies" },
+              { "id": "a4", "text": "To break down damaged cells" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q10",
+            "question": "Which disorder is characterized by the immune system attacking the body's own cells?",
+            "options": [
+              { "id": "a1", "text": "Allergy" },
+              { "id": "a2", "text": "Autoimmune disease" },
+              { "id": "a3", "text": "Immunodeficiency" },
+              { "id": "a4", "text": "Infection" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Respiratory System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the primary function of the respiratory system?",
+            "options": [
+              { "id": "a1", "text": "Transporting oxygen to cells and removing carbon dioxide" },
+              { "id": "a2", "text": "Producing red blood cells" },
+              { "id": "a3", "text": "Filtering waste from the blood" },
+              { "id": "a4", "text": "Digesting nutrients" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q2",
+            "question": "Which structure is the site of gas exchange in the lungs?",
+            "options": [
+              { "id": "a1", "text": "Bronchioles" },
+              { "id": "a2", "text": "Alveoli" },
+              { "id": "a3", "text": "Trachea" },
+              { "id": "a4", "text": "Larynx" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "What muscle contracts to initiate inhalation?",
+            "options": [
+              { "id": "a1", "text": "Diaphragm" },
+              { "id": "a2", "text": "Intercostal muscles" },
+              { "id": "a3", "text": "Abdominal muscles" },
+              { "id": "a4", "text": "Pectoral muscles" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q4",
+            "question": "Which of the following is part of the upper respiratory tract?",
+            "options": [
+              { "id": "a1", "text": "Larynx" },
+              { "id": "a2", "text": "Pharynx" },
+              { "id": "a3", "text": "Alveoli" },
+              { "id": "a4", "text": "Bronchi" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q5",
+            "question": "What is the main function of the epiglottis?",
+            "options": [
+              { "id": "a1", "text": "To filter air" },
+              { "id": "a2", "text": "To produce sound" },
+              { "id": "a3", "text": "To prevent food from entering the trachea" },
+              { "id": "a4", "text": "To exchange gases" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q6",
+            "question": "Which respiratory disorder is characterized by the chronic obstruction of airflow?",
+            "options": [
+              { "id": "a1", "text": "Asthma" },
+              { "id": "a2", "text": "Chronic obstructive pulmonary disease (COPD)" },
+              { "id": "a3", "text": "Pneumonia" },
+              { "id": "a4", "text": "Lung cancer" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q7",
+            "question": "What is the primary gas transported by hemoglobin in red blood cells?",
+            "options": [
+              { "id": "a1", "text": "Carbon dioxide" },
+              { "id": "a2", "text": "Oxygen" },
+              { "id": "a3", "text": "Nitrogen" },
+              { "id": "a4", "text": "Helium" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which part of the brain regulates the rate of breathing?",
+            "options": [
+              { "id": "a1", "text": "Cerebellum" },
+              { "id": "a2", "text": "Medulla oblongata" },
+              { "id": "a3", "text": "Thalamus" },
+              { "id": "a4", "text": "Cerebrum" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "What is the volume of air moved in and out of the lungs during a normal breath called?",
+            "options": [
+              { "id": "a1", "text": "Vital capacity" },
+              { "id": "a2", "text": "Residual volume" },
+              { "id": "a3", "text": "Tidal volume" },
+              { "id": "a4", "text": "Inspiratory reserve volume" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q10",
+            "question": "Which condition is caused by the inflammation of the bronchi, often due to infection?",
+            "options": [
+              { "id": "a1", "text": "Pneumonia" },
+              { "id": "a2", "text": "Bronchitis" },
+              { "id": "a3", "text": "Tuberculosis" },
+              { "id": "a4", "text": "Emphysema" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Urinary System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which organ filters blood to form urine?",
+            "options": [
+              { "id": "a1", "text": "Liver" },
+              { "id": "a2", "text": "Kidney" },
+              { "id": "a3", "text": "Bladder" },
+              { "id": "a4", "text": "Ureter" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "What is the functional unit of the kidney called?",
+            "options": [
+              { "id": "a1", "text": "Nephron" },
+              { "id": "a2", "text": "Ureter" },
+              { "id": "a3", "text": "Glomerulus" },
+              { "id": "a4", "text": "Bowman's capsule" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q3",
+            "question": "Which process occurs in the glomerulus of the nephron?",
+            "options": [
+              { "id": "a1", "text": "Filtration" },
+              { "id": "a2", "text": "Reabsorption" },
+              { "id": "a3", "text": "Secretion" },
+              { "id": "a4", "text": "Excretion" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q4",
+            "question": "Which structure carries urine from the kidney to the bladder?",
+            "options": [
+              { "id": "a1", "text": "Ureter" },
+              { "id": "a2", "text": "Urethra" },
+              { "id": "a3", "text": "Renal pelvis" },
+              { "id": "a4", "text": "Collecting duct" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q5",
+            "question": "Which hormone regulates water balance in the body by controlling the concentration of urine?",
+            "options": [
+              { "id": "a1", "text": "Aldosterone" },
+              { "id": "a2", "text": "Insulin" },
+              { "id": "a3", "text": "Antidiuretic hormone (ADH)" },
+              { "id": "a4", "text": "Cortisol" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q6",
+            "question": "Where does most reabsorption of water and nutrients occur in the nephron?",
+            "options": [
+              { "id": "a1", "text": "Proximal convoluted tubule" },
+              { "id": "a2", "text": "Loop of Henle" },
+              { "id": "a3", "text": "Distal convoluted tubule" },
+              { "id": "a4", "text": "Glomerulus" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q7",
+            "question": "Which part of the urinary system stores urine until it is excreted?",
+            "options": [
+              { "id": "a1", "text": "Kidney" },
+              { "id": "a2", "text": "Bladder" },
+              { "id": "a3", "text": "Ureter" },
+              { "id": "a4", "text": "Urethra" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "What is the normal color of urine in a healthy individual?",
+            "options": [
+              { "id": "a1", "text": "Dark brown" },
+              { "id": "a2", "text": "Light yellow" },
+              { "id": "a3", "text": "Red" },
+              { "id": "a4", "text": "Green" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "Which condition is characterized by the formation of stones in the urinary tract?",
+            "options": [
+              { "id": "a1", "text": "Nephritis" },
+              { "id": "a2", "text": "Urinary tract infection (UTI)" },
+              { "id": "a3", "text": "Kidney stones" },
+              { "id": "a4", "text": "Bladder cancer" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q10",
+            "question": "Which hormone is produced by the kidneys to stimulate red blood cell production?",
+            "options": [
+              { "id": "a1", "text": "Erythropoietin" },
+              { "id": "a2", "text": "Renin" },
+              { "id": "a3", "text": "Aldosterone" },
+              { "id": "a4", "text": "Cortisol" }
+            ],
+            "correct": "a1"
+          }
+        ]
+      },
+      {
+        "chapter": "The Reproductive System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which structure is responsible for producing sperm in males?",
+            "options": [
+              { "id": "a1", "text": "Seminal vesicles" },
+              { "id": "a2", "text": "Prostate gland" },
+              { "id": "a3", "text": "Testes" },
+              { "id": "a4", "text": "Epididymis" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q2",
+            "question": "Which hormone is primarily responsible for regulating the female reproductive cycle?",
+            "options": [
+              { "id": "a1", "text": "Testosterone" },
+              { "id": "a2", "text": "Estrogen" },
+              { "id": "a3", "text": "Progesterone" },
+              { "id": "a4", "text": "Luteinizing hormone (LH)" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "Where does fertilization of an egg by sperm typically occur?",
+            "options": [
+              { "id": "a1", "text": "Uterus" },
+              { "id": "a2", "text": "Fallopian tube" },
+              { "id": "a3", "text": "Ovary" },
+              { "id": "a4", "text": "Vagina" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q4",
+            "question": "Which structure in the male reproductive system stores and transports sperm?",
+            "options": [
+              { "id": "a1", "text": "Vas deferens" },
+              { "id": "a2", "text": "Urethra" },
+              { "id": "a3", "text": "Seminal vesicles" },
+              { "id": "a4", "text": "Prostate gland" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q5",
+            "question": "What is the primary function of the uterus?",
+            "options": [
+              { "id": "a1", "text": "Production of eggs" },
+              { "id": "a2", "text": "Site of fertilization" },
+              { "id": "a3", "text": "Nourishing and supporting the developing fetus" },
+              { "id": "a4", "text": "Production of hormones" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q6",
+            "question": "Which hormone triggers ovulation in females?",
+            "options": [
+              { "id": "a1", "text": "Estrogen" },
+              { "id": "a2", "text": "Progesterone" },
+              { "id": "a3", "text": "Luteinizing hormone (LH)" },
+              { "id": "a4", "text": "Follicle-stimulating hormone (FSH)" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q7",
+            "question": "Which structure produces eggs in females?",
+            "options": [
+              { "id": "a1", "text": "Fallopian tubes" },
+              { "id": "a2", "text": "Ovaries" },
+              { "id": "a3", "text": "Uterus" },
+              { "id": "a4", "text": "Vagina" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "What is the term for the formation of sperm cells?",
+            "options": [
+              { "id": "a1", "text": "Oogenesis" },
+              { "id": "a2", "text": "Spermatogenesis" },
+              { "id": "a3", "text": "Ovulation" },
+              { "id": "a4", "text": "Zygote formation" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "Which hormone is primarily responsible for the development of male secondary sexual characteristics?",
+            "options": [
+              { "id": "a1", "text": "Estrogen" },
+              { "id": "a2", "text": "Progesterone" },
+              { "id": "a3", "text": "Testosterone" },
+              { "id": "a4", "text": "Luteinizing hormone (LH)" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q10",
+            "question": "What is the process called when a fertilized egg implants into the uterine lining?",
+            "options": [
+              { "id": "a1", "text": "Fertilization" },
+              { "id": "a2", "text": "Ovulation" },
+              { "id": "a3", "text": "Implantation" },
+              { "id": "a4", "text": "Gametogenesis" }
+            ],
+            "correct": "a3"
+          }
+        ]
+      },
+      {
+        "chapter": "The Special Senses",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which structure is responsible for detecting light and sending signals to the brain for vision?",
+            "options": [
+              { "id": "a1", "text": "Retina" },
+              { "id": "a2", "text": "Cornea" },
+              { "id": "a3", "text": "Iris" },
+              { "id": "a4", "text": "Lens" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q2",
+            "question": "What is the function of the cochlea in the ear?",
+            "options": [
+              { "id": "a1", "text": "To detect sound vibrations" },
+              { "id": "a2", "text": "To balance the body" },
+              { "id": "a3", "text": "To produce earwax" },
+              { "id": "a4", "text": "To protect the eardrum" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q3",
+            "question": "Which part of the eye controls the amount of light entering the eye by adjusting the size of the pupil?",
+            "options": [
+              { "id": "a1", "text": "Retina" },
+              { "id": "a2", "text": "Cornea" },
+              { "id": "a3", "text": "Iris" },
+              { "id": "a4", "text": "Lens" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q4",
+            "question": "Which type of sensory receptor is responsible for detecting taste?",
+            "options": [
+              { "id": "a1", "text": "Olfactory receptors" },
+              { "id": "a2", "text": "Photoreceptors" },
+              { "id": "a3", "text": "Gustatory receptors" },
+              { "id": "a4", "text": "Mechanoreceptors" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q5",
+            "question": "What is the purpose of the olfactory receptors?",
+            "options": [
+              { "id": "a1", "text": "To detect light" },
+              { "id": "a2", "text": "To detect sounds" },
+              { "id": "a3", "text": "To detect smells" },
+              { "id": "a4", "text": "To detect balance" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q6",
+            "question": "Which structure in the ear helps with balance and spatial orientation?",
+            "options": [
+              { "id": "a1", "text": "Cochlea" },
+              { "id": "a2", "text": "Semicircular canals" },
+              { "id": "a3", "text": "Auditory canal" },
+              { "id": "a4", "text": "Eardrum" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q7",
+            "question": "What is the clear, protective layer at the front of the eye called?",
+            "options": [
+              { "id": "a1", "text": "Retina" },
+              { "id": "a2", "text": "Cornea" },
+              { "id": "a3", "text": "Iris" },
+              { "id": "a4", "text": "Lens" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which part of the eye changes shape to focus light on the retina?",
+            "options": [
+              { "id": "a1", "text": "Cornea" },
+              { "id": "a2", "text": "Lens" },
+              { "id": "a3", "text": "Iris" },
+              { "id": "a4", "text": "Sclera" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "Which structure in the inner ear helps convert sound vibrations into electrical signals for the brain?",
+            "options": [
+              { "id": "a1", "text": "Semicircular canals" },
+              { "id": "a2", "text": "Cochlea" },
+              { "id": "a3", "text": "Auditory nerve" },
+              { "id": "a4", "text": "Eustachian tube" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q10",
+            "question": "Which condition is characterized by the clouding of the lens, leading to impaired vision?",
+            "options": [
+              { "id": "a1", "text": "Glaucoma" },
+              { "id": "a2", "text": "Cataracts" },
+              { "id": "a3", "text": "Macular degeneration" },
+              { "id": "a4", "text": "Astigmatism" }
+            ],
+            "correct": "a2"
+          }
+        ]
+      },
+      {
+        "chapter": "The Digestive System",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the primary function of the digestive system?",
+            "options": [
+              { "id": "a1", "text": "To absorb oxygen into the bloodstream" },
+              { "id": "a2", "text": "To break down food and absorb nutrients" },
+              { "id": "a3", "text": "To circulate blood throughout the body" },
+              { "id": "a4", "text": "To filter waste from the blood" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "Where does the majority of nutrient absorption take place in the digestive system?",
+            "options": [
+              { "id": "a1", "text": "Stomach" },
+              { "id": "a2", "text": "Small intestine" },
+              { "id": "a3", "text": "Large intestine" },
+              { "id": "a4", "text": "Esophagus" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q3",
+            "question": "Which enzyme in the saliva breaks down carbohydrates?",
+            "options": [
+              { "id": "a1", "text": "Lipase" },
+              { "id": "a2", "text": "Pepsin" },
+              { "id": "a3", "text": "Amylase" },
+              { "id": "a4", "text": "Trypsin" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q4",
+            "question": "What is the role of the stomach in digestion?",
+            "options": [
+              { "id": "a1", "text": "To absorb most nutrients" },
+              { "id": "a2", "text": "To produce bile" },
+              { "id": "a3", "text": "To store bile" },
+              { "id": "a4", "text": "To churn food and secrete gastric juices" }
+            ],
+            "correct": "a4"
+          },
+          {
+            "id": "q5",
+            "question": "Which organ produces bile, which aids in fat digestion?",
+            "options": [
+              { "id": "a1", "text": "Pancreas" },
+              { "id": "a2", "text": "Liver" },
+              { "id": "a3", "text": "Gallbladder" },
+              { "id": "a4", "text": "Stomach" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q6",
+            "question": "What is the primary function of the large intestine?",
+            "options": [
+              { "id": "a1", "text": "To absorb nutrients" },
+              { "id": "a2", "text": "To digest proteins" },
+              { "id": "a3", "text": "To reabsorb water and form feces" },
+              { "id": "a4", "text": "To produce digestive enzymes" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q7",
+            "question": "Which structure prevents food from entering the respiratory tract during swallowing?",
+            "options": [
+              { "id": "a1", "text": "Larynx" },
+              { "id": "a2", "text": "Epiglottis" },
+              { "id": "a3", "text": "Esophagus" },
+              { "id": "a4", "text": "Pharynx" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "What is the role of the pancreas in digestion?",
+            "options": [
+              { "id": "a1", "text": "To produce bile" },
+              { "id": "a2", "text": "To secrete digestive enzymes and bicarbonate" },
+              { "id": "a3", "text": "To produce insulin" },
+              { "id": "a4", "text": "To store bile" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q9",
+            "question": "What is the term for the wave-like contractions that move food through the digestive tract?",
+            "options": [
+              { "id": "a1", "text": "Segmentation" },
+              { "id": "a2", "text": "Peristalsis" },
+              { "id": "a3", "text": "Churning" },
+              { "id": "a4", "text": "Assimilation" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q10",
+            "question": "Which digestive disorder is characterized by the inflammation of the appendix?",
+            "options": [
+              { "id": "a1", "text": "Crohn's disease" },
+              { "id": "a2", "text": "Irritable bowel syndrome" },
+              { "id": "a3", "text": "Appendicitis" },
+              { "id": "a4", "text": "Ulcerative colitis" }
+            ],
+            "correct": "a3"
+          }
+        ]
+      },
+      {
+        "chapter": "Nutrition and Metabolism",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which macronutrient is the primary source of energy for the body?",
+            "options": [
+              { "id": "a1", "text": "Proteins" },
+              { "id": "a2", "text": "Carbohydrates" },
+              { "id": "a3", "text": "Fats" },
+              { "id": "a4", "text": "Vitamins" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q2",
+            "question": "Which vitamin is essential for calcium absorption in the body?",
+            "options": [
+              { "id": "a1", "text": "Vitamin A" },
+              { "id": "a2", "text": "Vitamin C" },
+              { "id": "a3", "text": "Vitamin D" },
+              { "id": "a4", "text": "Vitamin K" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q3",
+            "question": "What is the process called in which the body converts food into usable energy?",
+            "options": [
+              { "id": "a1", "text": "Digestion" },
+              { "id": "a2", "text": "Metabolism" },
+              { "id": "a3", "text": "Absorption" },
+              { "id": "a4", "text": "Excretion" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q4",
+            "question": "Which mineral is important for oxygen transport in the blood?",
+            "options": [
+              { "id": "a1", "text": "Calcium" },
+              { "id": "a2", "text": "Sodium" },
+              { "id": "a3", "text": "Iron" },
+              { "id": "a4", "text": "Potassium" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q5",
+            "question": "Which process occurs in the liver and converts glycogen into glucose?",
+            "options": [
+              { "id": "a1", "text": "Glycolysis" },
+              { "id": "a2", "text": "Glycogenolysis" },
+              { "id": "a3", "text": "Gluconeogenesis" },
+              { "id": "a4", "text": "Lipogenesis" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q6",
+            "question": "Which of the following is a fat-soluble vitamin?",
+            "options": [
+              { "id": "a1", "text": "Vitamin C" },
+              { "id": "a2", "text": "Vitamin B12" },
+              { "id": "a3", "text": "Vitamin A" },
+              { "id": "a4", "text": "Folic acid" }
+            ],
+            "correct": "a3"
+          },
+          {
+            "id": "q7",
+            "question": "Which term refers to the amount of energy required to maintain the body's basic functions at rest?",
+            "options": [
+              { "id": "a1", "text": "Thermic effect of food" },
+              { "id": "a2", "text": "Basal metabolic rate (BMR)" },
+              { "id": "a3", "text": "Resting heart rate" },
+              { "id": "a4", "text": "Thermogenesis" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q8",
+            "question": "Which metabolic pathway is responsible for breaking down glucose for energy?",
+            "options": [
+              { "id": "a1", "text": "Glycolysis" },
+              { "id": "a2", "text": "Lipolysis" },
+              { "id": "a3", "text": "Proteolysis" },
+              { "id": "a4", "text": "Gluconeogenesis" }
+            ],
+            "correct": "a1"
+          },
+          {
+            "id": "q9",
+            "question": "Which of the following is a micronutrient?",
+            "options": [
+              { "id": "a1", "text": "Protein" },
+              { "id": "a2", "text": "Vitamin C" },
+              { "id": "a3", "text": "Carbohydrates" },
+              { "id": "a4", "text": "Fats" }
+            ],
+            "correct": "a2"
+          },
+          {
+            "id": "q10",
+            "question": "Which metabolic disorder is characterized by the inability to regulate blood sugar levels?",
+            "options": [
+              { "id": "a1", "text": "Hypothyroidism" },
+              { "id": "a2", "text": "Hyperthyroidism" },
+              { "id": "a3", "text": "Diabetes mellitus" },
+              { "id": "a4", "text": "Cushing's syndrome" }
+            ],
+            "correct": "a3"
+          }
+        ]
+      }
+
+  ]
+  
