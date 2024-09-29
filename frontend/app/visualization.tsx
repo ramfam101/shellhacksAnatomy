@@ -14,6 +14,9 @@ export default function VisualizationPage() {
             <Text style={styles.questionText}>
               {index + 1}. Question ID: {res.questionId}
             </Text>
+            <Text style={styles.questionText}>
+                {res.questionw}
+            </Text>
             <Text style={res.correct ? styles.correctText : styles.incorrectText}>
               {res.correct ? "Correct" : "Incorrect"}
             </Text>

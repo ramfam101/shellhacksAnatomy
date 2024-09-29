@@ -77,7 +77,7 @@ export default function QuizPage() {
 
   const handleSubmit = () => {
     // Initialize an array to hold the result for each question
-    const result: { questionId: string; correct: boolean }[] = [];
+    const result: { questionId: string; questionw: string; correct: boolean }[] = [];
     let incorrectCount = 0;
   
     // Iterate over the questions to check correctness and count incorrect answers
@@ -85,7 +85,7 @@ export default function QuizPage() {
     currentQuiz?.questions.forEach((question) => {
       const selectedOptionId = answers[question.id]; // User's selected answer
       const isCorrect = selectedOptionId === question.correct; // Check if it's correct
-      result.push({ questionId: question.id, correct: isCorrect }); // Store result
+      result.push({ questionId: question.id, questionw: question.question, correct: isCorrect }); // Store result
   
       if (!isCorrect) {
         incorrectCount++; // Count incorrect answers
