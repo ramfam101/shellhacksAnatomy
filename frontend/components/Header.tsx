@@ -14,7 +14,7 @@ export default function Header() {
       
       {/* Short description */}
       <Text style={styles.headerDescription}>
-        {Math.round(overallProgress * 100)}% done
+        {Math.round(overallProgress)}% done
       </Text>
 
       {/* Progress Bar */}

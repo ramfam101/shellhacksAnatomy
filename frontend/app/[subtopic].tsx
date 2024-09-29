@@ -21,7 +21,7 @@ export default function SubtopicScreen() {
       {chapterProgress[chapter] !== undefined ? (
         <>
           <Text style={styles.progressText}>
-            Chapter Progress: {Math.round(chapterProgress[chapter] * 100)}% done
+            Chapter Progress: {Math.round(chapterProgress[chapter])}% done
           </Text>
           <Progress.Bar
             progress={chapterProgress[chapter]}

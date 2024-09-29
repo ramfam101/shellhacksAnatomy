@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, ScrollView, Pressable, Text, View } from 'react-native';
 
 import Header from '@/components/Header'; // Import your header if needed
-import { rgbaColor } from 'react-native-reanimated/lib/typescript/reanimated2/Colors';
+
 
 export default function HomeScreen() {
   // State to manage the selected gender (true for male, false for female)

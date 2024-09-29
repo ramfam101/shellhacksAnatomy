@@ -7,6 +7,7 @@ import 'react-native-reanimated';
 import { ProgressProvider } from './ProgressContext';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { VisitedProvider } from './VisitedContext';
 
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -29,14 +30,18 @@ export default function RootLayout() {
   }
 
   return (
-    <ProgressProvider>
-      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="[subtopic]" options={{ headerShown: false }} />
-          <Stack.Screen name="+not-found" />
-        </Stack>
-      </ThemeProvider>
-    </ProgressProvider>
+    <VisitedProvider>
+      <ProgressProvider>
+        <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="[subtopic]" options={{ headerShown: false }} />
+            <Stack.Screen name="quiz" options={{ headerShown: false }} />
+            <Stack.Screen name="visualization" options={{ headerShown: false }} />
+            <Stack.Screen name="+not-found" />
+          </Stack>
+        </ThemeProvider>
+      </ProgressProvider>
+    </VisitedProvider>
   );
 }
