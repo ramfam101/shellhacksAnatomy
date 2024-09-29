@@ -1,5 +1,4 @@
 from flask import Blueprint, request, jsonify, session
-from app import app, db
 import chat
 
 learn_bp = Blueprint('learn', __name__)
@@ -12,6 +11,5 @@ def get_summary():
         return jsonify({'error': 'Content is required'}), 400
     summary = chat.content_type(1, content)
     return jsonify({'summary': summary}), 200
-
 
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, ScrollView, Pressable, Text, View } from 'react-native';
+import { Image } from 'expo-image';
 
 import Header from '@/components/Header'; // Import your header if needed
 
@@ -15,7 +16,7 @@ export default function HomeScreen() {
 
   // Dynamically change the image based on the isMale state
   const imageUrl = isMale
-    ? 'https://example.com/male-image.jpg' // Replace with actual male image URL
+    ? '../assets/images/male.png' // Replace with actual male image URL
     : 'https://example.com/female-image.jpg'; // Replace with actual female image URL
 
   return (
@@ -30,7 +31,11 @@ export default function HomeScreen() {
         </Pressable>
 
         <View style={styles.webviewContainer}>
-
+          <Image style={styles.image}
+            source={imageUrl}
+            contentFit="cover"
+            transition={1000}
+          />
         </View>
       </ScrollView>
     </>
@@ -42,6 +47,9 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     alignItems: 'center',
     marginTop: 20,
+  },
+  image: {
+    height: 100,
   },
   switch: {
     width: 150,

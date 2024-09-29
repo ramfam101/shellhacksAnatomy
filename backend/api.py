@@ -4,6 +4,7 @@ from requests.utils import to_native_string
 from base64 import b64encode
 import json
 
+
 # Configuration
 APP_CONFIG = {
     'OAUTH_TOKEN_URL': "https://apis.biodigital.com/oauth2/v2/token/",

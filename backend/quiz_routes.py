@@ -1,5 +1,4 @@
 from flask import Blueprint, request, jsonify, session
-from app import app, db
 import uuid
 import chat
 import json
@@ -31,14 +30,13 @@ def start_quiz():
     # Generate 10 questions using the chat module
     try:
         response = chat.content_type(2, content)  # Assuming this returns a list of 10 questions
-        if not isinstance(response, list) or len(response) != 10:
-            return jsonify({'error': 'Failed to generate 10 questions'}), 500
         # Each question should be a dict with 'question', 'choices', and 'correct_answer'
         chapter = response.get('chapter')
         questions = response.get('questions')
         session['chapter'] = chapter
         session['questions'] = questions
     except Exception as e:
+        print(f'An error occurred while generating questions: {str(e)}')
         return jsonify({'error': f'An error occurred while generating questions: {str(e)}'}), 500
 
     return jsonify({'message': 'Quiz started', 'user_id': user_id, 'chapter': chapter, 'questions' : questions, 'total_questions': 10}), 200
@@ -87,6 +85,7 @@ def submit_answers():
         'detailed_feedback': detailed_feedback,
         'quiz_completed': True
     }
+    return jsonify(detailed_feedback), 200
 
 @quiz_bp.route('/end_quiz', methods=['POST'])
 def end_quiz():
