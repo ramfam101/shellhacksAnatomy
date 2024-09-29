@@ -1,70 +1,74 @@
-import { Image, StyleSheet, Platform, ScrollView } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, ScrollView, Pressable, Text, View } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import Header from '@/components/Header';
+import Header from '@/components/Header'; // Import your header if needed
+
 
 export default function HomeScreen() {
+  // State to manage the selected gender (true for male, false for female)
+  const [isMale, setIsMale] = useState(true);
+
+  // Handle the custom switch toggle
+  const handleToggleSwitch = () => {
+    setIsMale((previousState) => !previousState);
+  };
+
+  // Dynamically change the image based on the isMale state
+  const imageUrl = isMale
+    ? 'https://example.com/male-image.jpg' // Replace with actual male image URL
+    : 'https://example.com/female-image.jpg'; // Replace with actual female image URL
+
   return (
     <>
-      <Header/>
-      <ScrollView>
-        <ThemedView style={styles.titleContainer}>
-          <ThemedText type="title">Welcome!</ThemedText>
-          <HelloWave />
-        </ThemedView>
-        <ThemedView style={styles.stepContainer}>
-          <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-          <ThemedText>
-            Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-            Press{' '}
-            <ThemedText type="defaultSemiBold">
-              {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-            </ThemedText>{' '}
-            to open developer tools.
-          </ThemedText>
-        </ThemedView>
-        <ThemedView style={styles.stepContainer}>
-          <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          <ThemedText>
-            Tap the Explore tab to learn more about what's included in this starter app.
-          </ThemedText>
-        </ThemedView>
-        <ThemedView style={styles.stepContainer}>
-          <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-          <ThemedText>
-            When you're ready, run{' '}
-            <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-            <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-            <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-            <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-          </ThemedText>
-        </ThemedView>
+      <Header />
+      <ScrollView contentContainerStyle={styles.container}>
+        <Pressable
+          style={[styles.switch, isMale ? styles.switchMale : styles.switchFemale]}
+          onPress={handleToggleSwitch}
+        >
+          <Text style={styles.switchText}>{isMale ? 'Male' : 'Female'}</Text>
+        </Pressable>
+
+        <View style={styles.webviewContainer}>
+
+        </View>
       </ScrollView>
     </>
   );
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
+  container: {
+    flexGrow: 1,
     alignItems: 'center',
-    gap: 8,
+    marginTop: 20,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+  switch: {
+    width: 150,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+    marginVertical: 5,
   },
-  // container : {
-  //   paddingTop: 70,
-  // },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+  switchMale: {
+    backgroundColor: "#3399FF",
+  },
+  switchFemale: {
+    backgroundColor: '#FF4081', // Pink for Female
+  },
+  switchText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  webviewContainer: {
+    width: '100%',
+    height: 300,
+    marginTop: 20,
+    backgroundColor: '#f0f0f0',
+  },
+  webview: {
+    flex: 1,
   },
 });
