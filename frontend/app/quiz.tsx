@@ -9,6 +9,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { RouteProp, useRoute, useNavigation } from "@react-navigation/native"; // Import useNavigation
+import { useVisited } from "./VisitedContext";
+import { useProgress } from "./ProgressContext";
 
 // Define the types for the quiz data
 interface AnswerOption {
@@ -43,6 +45,9 @@ export default function QuizPage() {
   const navigation = useNavigation(); // Initialize useNavigation
   const router = useRouter();
   const {setResult} = useQuizResult();
+
+  const { markQuizCompleted } = useVisited(); // Access the markQuizCompleted function
+  const { updateChapterProgress } = useProgress();
   // Initialize state
   const [currentQuiz, setCurrentQuiz] = useState<QuizData | null>(null);
   const [answers, setAnswers] = useState<{ [key: string]: string }>({});
@@ -77,7 +82,7 @@ export default function QuizPage() {
 
   const handleSubmit = () => {
     // Initialize an array to hold the result for each question
-    const result: { questionId: string; questionw: string; correct: boolean }[] = [];
+    const result: { questionId: string; questionw: string; correct: boolean; chapter: string }[] = [];
     let incorrectCount = 0;
   
     // Iterate over the questions to check correctness and count incorrect answers
@@ -85,7 +90,7 @@ export default function QuizPage() {
     currentQuiz?.questions.forEach((question) => {
       const selectedOptionId = answers[question.id]; // User's selected answer
       const isCorrect = selectedOptionId === question.correct; // Check if it's correct
-      result.push({ questionId: question.id, questionw: question.question, correct: isCorrect }); // Store result
+      result.push({ questionId: question.id, questionw: question.question, correct: isCorrect, chapter: chapter }); // Store result
   
       if (!isCorrect) {
         incorrectCount++; // Count incorrect answers
@@ -98,8 +103,13 @@ export default function QuizPage() {
         selectedOption ? selectedOption.text : "Not Answered"
       } - ${isCorrect ? "Correct" : "Incorrect"}\n\n`;
     });
+    // result.push({chapter: chapter});
+    
   setResult(result);
     // If the user gets more than 2 questions wrong, navigate to '/visualization' and pass the result
+    
+    // markQuizCompleted(chapter); // This will update the visited subtopics
+    updateChapterProgress(chapter, 100);
     if (incorrectCount > 2) {
       // Pass the result as a parameter
       router.push({

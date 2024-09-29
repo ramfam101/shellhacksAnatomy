@@ -5,6 +5,7 @@ interface Result {
   questionId: string;
   questionw: string;
   correct: boolean;
+  chapter: string;
 }
 
 // Define the shape of the context
