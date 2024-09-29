@@ -6,6 +6,7 @@ interface Result {
   questionw: string;
   correct: boolean;
   chapter: string;
+  correctanswer: any;
 }
 
 // Define the shape of the context

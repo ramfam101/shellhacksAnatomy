@@ -32,6 +32,9 @@ export default function VisualizationPage() {
             <Text style={styles.questionText}>
                 {res.questionw}
             </Text>
+            <Text style={styles.questionText}>
+                {res.correctanswer}
+            </Text>
             <Text style={res.correct ? styles.correctText : styles.incorrectText}>
               {res.correct ? "Correct" : "Incorrect"}
             </Text>
