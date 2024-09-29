@@ -1,7 +1,8 @@
 from openai import OpenAI 
 import json
 
-
+API_KEY = 'sk-VA9CDGsRX0AiDjEBOUzx4Umr8WuiCM7xKf9qWa6NE6T3BlbkFJ3qzCkiRYZhM1aZ_5oglY_TJ0RjKYCyN33Sc2_BpH4A'
+client = OpenAI(api_key = API_KEY)
 
 def content_type(type, content):
     if(type == 1):
