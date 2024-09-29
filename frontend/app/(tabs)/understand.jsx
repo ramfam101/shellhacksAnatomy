@@ -8,8 +8,8 @@ import { useProgress } from '../ProgressContext'; // Import the custom hook for 
 
 export default function LearnScreen() {
   const router = useRouter();
-  const { isChapterCompleted, markSubtopicVisited, getChapterProgress, isSubtopicVisited } = useVisited();
-  const { chapterProgress } = useProgress(); // Get the progress context data
+  const { isChapterCompleted, markSubtopicVisited, getChapterProgress, isSubtopicVisited } = useVisited(); // Added isSubtopicVisited to check individual subtopics
+  const { updateChapterProgress, chapterProgress } = useProgress(); // Get the progress context data
 
   const [expandedChapter, setExpandedChapter] = useState(null); // Track which chapter is expanded
 
@@ -60,17 +60,15 @@ export default function LearnScreen() {
                     </Pressable>
                   ))}
 
-                  {/* Conditional rendering of the progress bar */}
-                  {chapterProgress[chapter.ChapterTitle] < 100 && (
-                    <View style={styles.progressBarBackground}>
-                      <View
-                        style={{
-                          ...styles.progressBarFill,
-                          width: `${chapterProgress[chapter.ChapterTitle]}%`,
-                        }}
-                      />
-                    </View>
-                  )}
+                  {/* Chapter Progress Bar */}
+                  <View style={styles.progressBarBackground}>
+                    <View
+                      style={{
+                        ...styles.progressBarFill,
+                        width: `${chapterProgress[chapter.ChapterTitle]}%`,
+                      }}
+                    />
+                  </View>
 
                   {/* Quiz button */}
                   <Pressable
@@ -114,7 +112,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   chapterBox: {
-    backgroundColor: "#fff",
+    backgroundColor: "#fff", // White background to match quiz/visualization style
     padding: 15,
     marginBottom: 15,
     borderRadius: 8,
@@ -134,7 +132,7 @@ const styles = StyleSheet.create({
   },
   subtopicButton: {
     padding: 10,
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "#f9f9f9", // Default light gray background for subtopics
     borderRadius: 8,
     marginBottom: 10,
     elevation: 1,
@@ -144,7 +142,7 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
   },
   visitedSubtopicButton: {
-    backgroundColor: "#3399FF",
+    backgroundColor: "#3399FF", // Blue background if the subtopic is visited
   },
   subtopicText: {
     fontSize: 16,
